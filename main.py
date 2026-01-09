@@ -26,7 +26,7 @@ def init_webdriver(): #создаем webdriver для того что бы эм
 
 
 
-def scrolldown(driver, deep): #прокручиваем странницу вниз что бы прогрузить странницу
+def scrolldown(driver, deep): #прокручиваем страницу вниз что бы прогрузить страницу
     for _ in range(deep):
         driver.execute_script('window.scrollBy(0, 500)')
         time.sleep(0.1) 
@@ -93,3 +93,4 @@ def parser(url):
     return product_pack
 
     
+
