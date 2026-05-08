@@ -3,7 +3,7 @@ import time
 from main import parser
 from main import Search
 
-token = "8512618246:AAEjTE811MNq1xbWwmg7VOmCJfzOfn8glzM"
+token = "ваш токен"
 bot = telebot.TeleBot(token)
 
 @bot.message_handler(commands=["start"])
